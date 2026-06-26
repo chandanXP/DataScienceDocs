@@ -1,0 +1,25 @@
+1. Student Pass Fail Dataset
+url = 'https://raw.githubusercontent.com/sarwansingh/Python/master/ClassExamples/data/student-pass-fail-data.csv'
+
+2. Advertisement and sales Dataset on TV, Radio,  NewsPaper vs Sales for DECISION Tree
+url = 'https://raw.githubusercontent.com/justmarkham/scikit-learn-videos/master/data/Advertising.csv'
+3. Diabetes Datsset for Random Forest and XGBoost
+url  ="https://raw.githubusercontent.com/sarwansingh/Python/master/ClassExamples/data/diabetes1.csv"
+
+4. KNN Dataset for Exaplaining Basic working
+# 1. CREATE A SUPER SIMPLE DATASET
+# Imagine these are coordinates on a map for two teams
+# Class 0 (Blue Team): Clustered bottom-left
+X_blue = np.array([[1, 2], [2, 3], [2, 1], [3, 2], [1, 4], [3, 3]])
+y_blue = np.zeros(len(X_blue)) # 0 means Blue
+
+# Class 1 (Red Team): Clustered top-right
+X_red = np.array([[6, 5], [7, 7], [8, 6], [7, 5], [9, 7], [6, 7]])
+y_red = np.ones(len(X_red)) # 1 means Red
+
+5. House and rent dataset link
+url = "https://raw.githubusercontent.com/sarwansingh/Python/master/ClassExamples/data/House_Rent_Dataset.csv"
+
+6. Logistic Regression implementation Tatanic Dataset ("age", "fare", "pclass", "survived")
+# Dataset present on web
+df = sns.load_dataset('titanic')
